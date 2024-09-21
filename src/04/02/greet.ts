@@ -1,4 +1,10 @@
+
+const expect = (a: string) => {
+  console.log("expect called");
+}
+
 export function greet(name: string) {
+  expect("hello");
   return `Hello! ${name}.`;
 }
 

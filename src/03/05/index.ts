@@ -2,7 +2,8 @@ export class RangeError extends Error {}
 
 function checkRange(value: number) {
   if (value < 0 || value > 100) {
-    throw new RangeError("入力値は0〜100の間で入力してください");
+    // throw new RangeError("入力値は0〜100の間で入力してください");
+    throw 1
   }
 }
 
